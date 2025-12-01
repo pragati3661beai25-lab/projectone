@@ -1,0 +1,27 @@
+/* Flex container */
+.container {
+    display: flex;                /* Enables flexbox */
+    flex-direction: row;            /* Try: row, column */
+    justify-content: center;        /* Try: space-between, space-around */
+    align-items: center;           /* Try: flex-start, flex-end */
+    gap: 20px;                      /* Space between boxes */
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 200px;                  
+}
+
+/* Box styling */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid #0077b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box1 { background: #caf0f8; }
+.box2 { background: #90e0ef; }
+.box3 { background: #48cae4; }
